@@ -1,2 +1,2 @@
 # bmd-v2
-The Better Managed Development manifesto
+The Better Managed Development Method
