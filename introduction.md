@@ -7,11 +7,15 @@ However, the topic of “Culture” has acquired a strangely mysterious reputati
 The Better Managed Development (BMD) method seeks to disprove this notion that culture is immeasurable or unknowable. In this manifesto, we describe ideals of the method as a framework for cultural governance in the technology organization.
 
 Table of Contents
-- (Goals of Better Managed Development)[]
-- (Statement of Beliefs)[]
-- (Key Elements)[/elements]
-- (Recommendations)[/recommendation]
-- (Practice BMD)[/practice]
+- [Goals of Better Managed Development](#goals-of-better-managed-development)
+- [Statement of Beliefs](#statement-of-beliefs)
+- [Key Elements](content/elements.md)
+  - [Components](content/elements.md#components)
+  - [Capabilities](content/elements.md#capabilities)
+  - [Signals](content/elements.md#signals)
+  - [Outcomes](content/elements.md#outcomes-cultural-outcomes)
+- [Recommendations](content/recommendation.md)
+- [Practice BMD](content/practice.md)
 
 
 ## Goals of Better Managed Development
