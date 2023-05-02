@@ -15,6 +15,8 @@ Table of Contents
   - [Signals](content/elements.md#signals)
   - [Outcomes](content/elements.md#outcomes-cultural-outcomes)
 - [Recommendations](content/recommendation.md)
+  - [Technical Capabilities](content/recommendation.md#recommended-technical-capabilities)
+  - [Non-technical Capabilities](content/recommendation.md#recommended-non-technical-capabilities)
 - [Practice BMD](content/practice.md)
 
 
