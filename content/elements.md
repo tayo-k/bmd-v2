@@ -29,21 +29,37 @@ Capabilities have the following characteristics
 2. A capability must be clearly and narrowly defined with little opportunity for confusion or ambiguity
 3. A capability can share components with another capability. That is, a component can feature within more than one capability e.g. a process that serves multiple purposes.
 
+## Signals
+Signals refer to discrete points of data that represent a quality or quantity of a component at a given point in time. With Signals, we can then continuously observe the state of components by capturing the signals emitted by the component over a span of time. 
+Let's take an Agile process like Retrospectives for example. We can think of a Retrospective as a component/process that has the following properties
+* Operation: is the Retrospective process occurring? How frequently? Each occurrence of the retrospective can be thought of as a signal. This signal can thus be captured over a span of time to measure the commitment to the retrospective process
+* Positive Feedback: How much positive reflection occurs in the retrospective (a.k.a the "What did we do well?" portion of a standard retrospective)
+* Critical Feedback: How much critical feedback arises in the course of the retrospective (a.k.a the "What could we have done better?" portion of a standard retrospective)
+
+With these example signal captured across departments and pivoted along reporting lines, we can observe the quality or effectiveness of the retrospective process across an org. 
+Signals have the following properties
+1. A signal can measure only one aspect of a component or capability i.e. should be very narrowly defined
+2. A signal should be captured only with regard to the leader that's accountable for the part of the organization that's producing the signal
+3. A signal is immutable
+4. The absence of signal is a signal by itself
+5. Signals are neutral per se i.e. they should not exhibit any directionality for the purposes of decision-making
+
+
 ## Outcomes (Cultural Outcomes) 
 
 The Outcome is the topmost unit of organization in the BMD enterprise. An Outcome is a short statement that defines a desirable cultural aim. Examples of cultural outcomes include
-* “Employees are encouraged to experiment and innovate”
-* “Employees are encouraged to grow professionally”
-* “Pull requests are typically reviewed within 24 hours of opening during the business week”
-* “Our deployment pipelines maintain a minimal rate of failure”
-* “Teams maintain ownership and accountability of specific code repositories as stewards”
-* “Our Mean Time to Restore typically is less than an hour”
+* “**Employees are encouraged to experiment and innovate**”
+* “**Employees are encouraged to grow professionally**”
+* “**Pull requests are typically reviewed within 24 hours of opening during the business week**”
+* “**Our deployment pipelines maintain a minimal rate of failure**”
+* “**Teams maintain ownership and accountability of specific code repositories as stewards**”
+* “**We will maintain a Mean Time to Restore (MTTR) typically less than an hour**”
 
 Outcomes are already a fixture of the healthcare industry, serving as the key tool for observing the impacts that healthcare operations have on different interested parties (patients, medical providers, insurance carriers, regulatory bodies etc.). The Outcome is the simplest way to provide structure and framing for otherwise intangible and nebulous aims and strategic imperatives.
 
 An outcome has the following characteristics
 
-1. Outcomes do not have an end date. Thinking of technical Outcomes like “Maintain continuous operational practices related to security”, or non-technical ones like “Individual contributors remain engaged with the company’s mission”, you will see that at no point can an enterprise claim “we have achieved security” or “we have completed developer engagement”. This gives outcomes the unique ability to allow decision makers to maintain a long-term perspective without sacrificing the short- and medium-term needs.
+1. Outcomes do not have an end date. Thinking of technical Outcomes like “**Maintain continuous operational practices related to security**”, or non-technical ones like “**Individual contributors remain engaged with the company’s mission**”, you will see that at no point can an enterprise claim “we have achieved security” or “we have completed developer engagement”. This gives outcomes the unique ability to allow decision makers to maintain a long-term perspective without sacrificing the short- and medium-term needs.
 2. Outcomes do not have a completion status. Unlike other common units of deliverables like Objectives, Key Results, Milestones, To-dos, tasks etc., Outcomes are not subjected to completion states.
 3. Outcomes do not have a fixed target that once achieved will result in the “completion” of the Outcome
 4. All other deliverables in the organization - Objectives, Key Results, Milestones, To-dos, Initiatives - all are subordinate to the Outcome.
@@ -51,3 +67,4 @@ An outcome has the following characteristics
 6. Outcomes are defined and measured entirely by the signals that are emitted by their associated components
 
 It is important to not conflate Outcomes with other types of deliverables (e.g. Objectives, Milestones etc). Outcomes are necessarily open-ended, narrowly defined and will not ever be “achieved”. 
+The Outcome therefore, is measured or observe by way of the signals attached to the components and capabiltiies that are attached to the Outcome
