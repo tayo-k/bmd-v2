@@ -1,3 +1,5 @@
+<title>BMD | The Better Managed Development Manifesto</title>
+
 # Introduction
 
 The technology industry thrives on structure and frameworks. We depend on organized modes of operation that are trusted to yield consistent (or at least comparable) results. Whether it be design patterns, agile methodologies, or programming frameworks, the technology industry is built on determinism and consistency.
